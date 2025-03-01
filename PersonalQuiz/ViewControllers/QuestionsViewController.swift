@@ -8,7 +8,9 @@
 import UIKit
 
 final class QuestionsViewController: UIViewController {
-
+    
+    private let questions = Question.getQuestions()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
